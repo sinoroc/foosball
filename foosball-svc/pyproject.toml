@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "foosball-svc"
+version = "0.1.0"
+description = ""
+authors = ["sinoroc <sinoroc.code+git@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+foosball-lib = "0.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+foosball-lib = {path = "../foosball-lib", develop = true}
+foosball-common = {path = "../foosball-common", develop = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
