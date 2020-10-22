@@ -51,7 +51,7 @@ python-versions = "^3.8"
 develop = true
 
 [package.dependencies]
-foosball-common = "0.1.0"
+foosball-common = "^0.1.0"
 
 [package.source]
 type = "directory"
@@ -145,7 +145,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "ef06836b13762e84f85c62e92c48b98a5a6667473c79caec92892f677b8e80f9"
+content-hash = "dabb6bb8f6d75914454c82f1f24ab6d340f8e93a95e9442086a8150aa9aff163"
 
 [metadata.files]
 atomicwrites = [
